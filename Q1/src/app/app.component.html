@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col first">
+      <input id="inputNumber" [(ngModel)]="inputNumber" (ngModelChange)="onChangeNumber($event)">
+    </div>
+    <div class="col middle">
+      middle
+    </div>
+    <div class="col last">
+      last
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
